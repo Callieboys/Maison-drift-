@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maison Drift</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #000;
+      color: #fff;
+      flex-direction: column;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 0.5em;
+      letter-spacing: 1px;
+    }
+    section.products {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .products h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      border: 1px solid #000;
+      padding: 10px;
+      transition: 0.3s;
+    }
+    .product:hover {
+      background-color: #f4f4f4;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #000;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Maison Drift</h1>
+    <p>Born Free to Lead</p>
+  </header>  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product">Product 1</div>
+      <div class="product">Product 2</div>
+      <div class="product">Product 3</div>
+    </div>
+  </section>  <footer>
+    <nav>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+      <a href="#">Shop</a>
+    </nav>
+    <p>&copy; 2025 Maison Drift</p>
+  </footer>
+</body>
+  </html>
